@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Big Mama — Chinese Street Food, Sonipat</title>
+  <!-- Google Fonts: Bebas Neue for headings, Syne for body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <a href="#hero" class="logo">Big<span>Mama</span></a>
+    <!-- Hamburger for mobile -->
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <!-- Call CTA in nav -->
+      <li><a href="tel:+919876543210" class="nav-cta">📞 Call Now</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero">
+    <!-- Decorative noise-style background pattern -->
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <!-- Badge tag -->
+      <span class="hero-badge">🔥 Sonipat's Favourite Street Food</span>
+      <h1 class="hero-title">Big<br/><span>Mama.</span></h1>
+      <p class="hero-sub">Street food so good, your mess food will feel insulted.</p>
+      <!-- Primary CTA: Call to Order -->
+      <a href="tel:+919876543210" class="btn-primary">
+        <span class="btn-icon">📞</span> Call to Order
+      </a>
+      <!-- Scroll hint -->
+      <a href="#menu" class="scroll-hint">See Our Menu ↓</a>
+    </div>
+    <!-- Floating food emoji decorations -->
+    <div class="hero-floats" aria-hidden="true">
+      <span class="float f1">🥟</span>
+      <span class="float f2">🍜</span>
+      <span class="float f3">🌶️</span>
+      <span class="float f4">🍚</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-tag">Who We Are</div>
+      <h2 class="section-title">Not just a cart.<br/>A <span>vibe.</span></h2>
+      <div class="about-grid">
+        <!-- About text -->
+        <div class="about-text">
+          <p>
+            Big Mama started as a small red cart parked right outside the college gate in Sonipat — and honestly, it never needed to be anything more. We make Chinese street food the way it was meant to be: fast, flavourful, and affordable enough that you don't have to text your dad for money.
+          </p>
+          <p>
+            From crispy chilli potatoes to steaming momos stuffed just right, every item is made fresh to order. No frozen stuff, no drama — just good food.
+          </p>
+          <!-- Stats row -->
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Years Running</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">1000+</span>
+              <span class="stat-label">Happy Students</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">12+</span>
+              <span class="stat-label">Menu Items</span>
+            </div>
+          </div>
+        </div>
+        <!-- About decorative card -->
+        <div class="about-card">
+          <div class="about-card-inner">
+            <span class="about-emoji">🥢</span>
+            <p class="about-card-quote">"Made with love. Served with speed."</p>
+            <p class="about-card-location">📍 Near Rishihood University Gate, Sonipat, Haryana</p>
+            <p class="about-card-hours">⏰ Open Daily: 4 PM – 10 PM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MENU SECTION ===== -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <div class="section-tag">What We Serve</div>
+      <h2 class="section-title">Our <span>Menu</span></h2>
+      <p class="menu-sub">Fresh. Fast. Filling. Call us to place your order.</p>
+
+      <!-- Menu Grid -->
+      <div class="menu-grid">
+
+        <!-- Card 1: Momos -->
+        <div class="menu-card">
+          <div class="card-emoji">🥟</div>
+          <div class="card-body">
+            <div class="card-top">
+              <h3 class="card-name">Steamed Momos</h3>
+              <span class="card-price">₹70</span>
+            </div>
+            <p class="card-desc">Soft, juicy momos stuffed with veg/paneer, served with spicy red chutney.</p>
+            <span class="card-tag">Bestseller</span>
+          </div>
+        </div>
+
+        <!-- Card 2: Fried Momos -->
+        <div class="menu-card">
+          <div class="card-emoji">🥟</div>
+          <div class="card-body">
+            <div class="card-top">
+              <h3 class="card-name">Fried Momos</h3>
+              <span class="card-price">₹80</span>
+            </div>
+            <p class="card-desc">Crispy on the outside, soft inside — deep-fried to golden perfection.</p>
+            <span class="card-tag">Fan Favourite</span>
+          </div>
+        </div>
+
+        <!-- Card 3: Noodles -->
+        <div class="menu-card">
+          <div class="card-emoji">🍜</div>
+          <div class="card-body">
+            <div class="card-top">
+              <h3 class="card-name">Hakka Noodles</h3>
+              <span class="card-price">₹110</span>
+            </div>
+            <p class="card-desc">Tossed in soy & chilli sauce with fresh veggies. Available with paneer or egg.</p>
+          </div>
+        </div>
+
+        <!-- Card 4: Fried Rice -->
+        <div class="menu-card">
+          <div class="card-emoji">🍚</div>
+          <div class="card-body">
+            <div class="card-top">
+              <h3 class="card-name">Fried Rice</h3>
+              <span class="card-price">₹100</span>
+            </div>
+            <p class="card-desc">Classic Chinese-style fried rice loaded with veggies and flavour.</p>
+          </div>
+        </div>
+
+        <!-- Card 5: Chilli Potato -->
+        <div class="menu-card">
+          <div class="card-emoji">🌶️</div>
+          <div class="card-body">
+            <div class="card-top">
+              <h3 class="card-name">Chilli Potato</h3>
+              <span class="card-price">₹90</span>
+            </div>
+            <p class="card-desc">Crispy fried potato tossed in bold chilli-garlic sauce. Dangerously addictive.</p>
+            <span class="card-tag">Spicy 🌶️</span>
+          </div>
+        </div>
+
+        <!-- Card 6: Spring Rolls -->
+        <div class="menu-card">
+          <div class="card-emoji">🥢</div>
+          <div class="card-body">
+            <div class="card-top">
+              <h3 class="card-name">Spring Rolls</h3>
+              <span class="card-price">₹80</span>
+            </div>
+            <p class="card-desc">Crunchy fried rolls stuffed with spiced cabbage and noodle filling.</p>
+          </div>
+        </div>
+
+        <!-- Card 7: Schezwan Noodles -->
+        <div class="menu-card">
+          <div class="card-emoji">🍜</div>
+          <div class="card-body">
+            <div class="card-top">
+              <h3 class="card-name">Schezwan Noodles</h3>
+              <span class="card-price">₹100</span>
+            </div>
+            <p class="card-desc">Fiery Schezwan sauce tossed noodles. Not for the faint-hearted.</p>
+            <span class="card-tag">Extra Spicy 🔥</span>
+          </div>
+        </div>
+
+        <!-- Card 8: Paneer Chilli -->
+        <div class="menu-card">
+          <div class="card-emoji">🧊</div>
+          <div class="card-body">
+            <div class="card-top">
+              <h3 class="card-name">Paneer Chilli</h3>
+              <span class="card-price">₹120</span>
+            </div>
+            <p class="card-desc">Soft paneer cubes in tangy chilli sauce with capsicum and onions.</p>
+            <span class="card-tag">Premium</span>
+          </div>
+        </div>
+
+      </div><!-- /menu-grid -->
+
+      <!-- Menu CTA -->
+      <div class="menu-cta">
+        <p>Want to know today's specials or place a bulk order?</p>
+        <a href="tel:+919876543210" class="btn-primary">📞 Call Big Mama</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-tag">Word on Campus</div>
+      <h2 class="section-title">Students <span>Love Us</span></h2>
+      <div class="testi-grid">
+
+        <div class="testi-card">
+          <p class="testi-text">"Big Mama's momos are the reason I survived my first semester. Absolutely no competition near campus."</p>
+          <div class="testi-author">
+            <span class="testi-avatar">R</span>
+            <div>
+              <span class="testi-name">Rahul Sharma</span>
+              <span class="testi-college">B.Tech 2nd Year</span>
+            </div>
+          </div>
+          <div class="testi-stars">★★★★★</div>
+        </div>
+
+        <div class="testi-card">
+          <p class="testi-text">"Chilli potato hits different after an 8 AM class. Never disappoints. The aunty is literally a legend."</p>
+          <div class="testi-author">
+            <span class="testi-avatar">P</span>
+            <div>
+              <span class="testi-name">Riya Gupta</span>
+              <span class="testi-college">BBA 1st Year</span>
+            </div>
+          </div>
+          <div class="testi-stars">★★★★★</div>
+        </div>
+
+        <div class="testi-card">
+          <p class="testi-text">"Ordered fried rice for my whole hostel wing. Everyone loved it. Fast, hot, and super affordable."</p>
+          <div class="testi-author">
+            <span class="testi-avatar">A</span>
+            <div>
+              <span class="testi-name">Arjun Mehta</span>
+              <span class="testi-college">Psychology Final Year</span>
+            </div>
+          </div>
+          <div class="testi-stars">★★★★★</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-tag">Find Us</div>
+      <h2 class="section-title">Come<br/><span>Eat With Us</span></h2>
+      <div class="contact-grid">
+
+        <!-- Info cards -->
+        <div class="contact-info">
+          <div class="info-card">
+            <span class="info-icon">📍</span>
+            <div>
+              <strong>Location</strong>
+              <p>Near Rishihood University Gate, Sonipat, Haryana — 131001</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">📞</span>
+            <div>
+              <strong>Phone</strong>
+              <p>+91 98765 43210</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">⏰</span>
+            <div>
+              <strong>Hours</strong>
+              <p>Monday – Sunday<br/>4:00 PM – 10:00 PM</p>
+            </div>
+          </div>
+          <!-- Big call button -->
+          <a href="tel:+919876543210" class="btn-primary btn-big">
+            📞 Call to Order Now
+          </a>
+        </div>
+
+        <!-- Map placeholder / decorative box -->
+        <div class="map-box">
+          <div class="map-inner">
+            <span class="map-pin">📍</span>
+            <p>Big Mama Street Cart</p>
+            <span>Near University Gate, Sonipat</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#hero" class="logo footer-logo">Big<span>Mama</span></a>
+      <p class="footer-tagline">Street Food. No Drama. Just Love. 🥢</p>
+      <p class="footer-copy">©️ 2024 Big Mama. All rights reserved. | Sonipat, Haryana</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
